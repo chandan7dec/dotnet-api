@@ -3,7 +3,7 @@ name: Build and Push .NET API Image
 # 1. This is what triggers the action (on every push to the main branch)
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 env:
   REGISTRY: ghcr.io
