@@ -1,0 +1,32 @@
+# .NET Core build artifacts
+**/bin/
+**/obj/
+
+# Visual Studio Code & Visual Studio local files
+**/.vscode/
+**/.vs/
+**/*.*proj.user
+**/*.user
+**/*.suo
+
+# Source control & CI/CD logs
+**/.git
+**/.gitignore
+**/.github
+**/.gitlab-ci.yml
+
+# Docker build infrastructure
+**/.dockerignore
+**/Dockerfile*
+**/docker-compose*
+
+# Frontend dependencies (if using ASP.NET Core Single Page Apps like React/Angular)
+**/node_modules/
+**/npm-debug.log
+**/yarn-error.log
+
+# Operating system files
+**/.DS_Store
+**/Thumbs.db
+**/ehthumbs.db
+**/*.lnk

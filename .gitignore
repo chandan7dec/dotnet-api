@@ -1,0 +1,43 @@
+## Build outputs and compilation artifacts
+[Bb]in/
+[Oo]bj/
+[Cc]ache/
+*.msi
+*.msix
+*.msm
+*.msp
+
+## User-specific files and local settings
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## IDE configurations (Visual Studio, VS Code, Rider)
+.vs/
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.iml
+
+## Operating System files
+Thumbs.db
+.DS_Store
+ehthumbs.db
+
+## Publishing and deployment outputs
+*.publish.htm
+*.azureauth
+*.pubxml
+*.pubxml.user
+
+## App Bundle or packaging formats
+_BuildOutput/
+Generated_Code/
+
+## Local user secrets and app configurations
+appsettings.Development.json
+appsettings.Local.json
