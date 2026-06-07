@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: dotnet-container
-        image: ghcr.io/chandan7dec/my-dotnet-api:latest
+        image: ghcr.io/chandan7dec/dotnet-api:latest
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
