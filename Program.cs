@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add CORS policy
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReactApp",
+    options.AddPolicy("AllowAll",
         policy => policy.AllowAnyOrigin() // For production, replace with your React App's specific URL
                         .AllowAnyMethod()
                         .AllowAnyHeader());
@@ -21,7 +21,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-
+app.UseCors("AllowAll"); // Must be placed before MapControllers
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
